@@ -121,6 +121,9 @@ class Donate(models.Model):
 class Volunteer(models.Model):
     image_bg_volunteer = models.FileField(
         validators=[validate_image_extension], upload_to='background/volunteer/', )
+class Replay(models.Model):
+    image_bg_volunteer = models.FileField(
+        validators=[validate_image_extension], upload_to='background/volunteer/', )
 
 class WhatWeAreDoingBackgroundImage(models.Model):
     bg_image_what_we_are_doing = models.FileField(

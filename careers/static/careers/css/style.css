@@ -4440,11 +4440,40 @@
 	 position: relative;
 	 margin-bottom: 30px;
  }
- 
+ .replay-text-arabic{
+	position: relative;
+	font-family: 'Noto Kufi Arabic', sans-serif;;
+	color: #2f3753;
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-size: 30px;
+	text-transform: capitalize;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
+}
+.featured-blocks .featured-block .iconss h3:before{
+	content: '';
+	position: absolute;
+left: 0;	bottom: 0;
+	width: 30px;
+	border-bottom: 2px solid white;
+}
+ .featured-blocks .featured-block .iconss .icon{
+	position: relative;
+	display: block;
+	text-align: right;
+	right: 0;
+	top: 0px;
+	padding-right:25px;
+letter-spacing: 12px;
+	line-height: 1em;
+	font-size: 80px;
+	color: #dc4549;
+	margin: 0 0 30px;
+}
  .call-to-action h2{
 	 position: relative;
 	 font-weight: 700;
-	 font-size: 48px;
 	 line-height: 1.2em;
 	 margin-bottom: 10px;
  }
@@ -9995,6 +10024,17 @@
 	text-align: center;
 	height: 200px;
 	border-radius:5px 5px 0px 0px;
+}
+.replay-text-arabic{
+	position: relative;
+	font-family: 'Noto Kufi Arabic', sans-serif;;
+	color: #2f3753;
+	letter-spacing: 12px;
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: capitalize;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
 }
 
 

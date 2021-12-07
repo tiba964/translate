@@ -6728,6 +6728,7 @@ padding-right: 30px;
 	position: relative;
 	float: right;
 	display: block;
+	width:1000px;
 }
 
 .blog-block-two .bottom-box .post-meta{

@@ -2,8 +2,8 @@ from email.message import EmailMessage
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from rest_framework import generics, permissions
-from .models import Application, Slider,  VisionMissionValue, Volunteer, WhatWeAreDoingBackgroundImage, WhoWeAre, Index, Donate, WhatWeAreDoingDetail, About, GetInvolved
-from .serializers import ApplicationSerializer, SliderSerializer, VisionMissionValueSerializer, WhoWeAreSerializer, VolunteerSerializer, IndexSerializer, DonateSerializer, WhatWeAreDoingDetailSerializer, AboutSerializer, GetInvolvedSerializer
+from .models import Application, Replay, Slider,  VisionMissionValue, Volunteer, WhatWeAreDoingBackgroundImage, WhoWeAre, Index, Donate, WhatWeAreDoingDetail, About, GetInvolved
+from .serializers import ApplicationSerializer, ReplaySerializer, SliderSerializer, VisionMissionValueSerializer, WhoWeAreSerializer, VolunteerSerializer, IndexSerializer, DonateSerializer, WhatWeAreDoingDetailSerializer, AboutSerializer, GetInvolvedSerializer
 from django.http import HttpRequest
 from rest_framework.renderers import JSONRenderer, TemplateHTMLRenderer
 from .filters import WhatWeAreDoingDetailFilter
@@ -80,7 +80,17 @@ def volunteer(request):
                       'data': serializer_class.data,
                   }
                   )
+def replay(request):
+    """Renders the create replay page."""
+    assert isinstance(request, HttpRequest)
+    queryset = Replay.objects.all()
+    serializer_class = ReplaySerializer(queryset, many=True)
 
+    return render(request, 'replay.html',
+                  {
+                      'data': serializer_class.data,
+                  }
+                  )
 
 def index(request):
     assert isinstance(request, HttpRequest)

@@ -65,11 +65,10 @@
 
  ***/
 
- @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700&display=swap');
  /*
- font-family: 'Playfair Display', serif;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: 'Noto Kufi Arabic', sans-serif;
  */
  
  @import url('owl.css');
@@ -102,6 +101,7 @@
   ***/
  
  *{
+	font-family: 'Noto Kufi Arabic', sans-serif;
 	 direction: rtl;
 	 margin:0px;
 	 padding:0px;
@@ -128,7 +128,7 @@
 	
 	 -webkit-font-smoothing: antialiased;
 	 -moz-font-smoothing: antialiased;
-	 font-family: 'PT Sans', sans-serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
  }
  
  a{
@@ -154,7 +154,7 @@
 	 margin:0px;
 	 background:none;
 	 line-height:1.25em;
-	 font-family: 'Playfair Display', cursive;	}
+	  font-family: 'Noto Kufi Arabic', sans-serif;	}
  
  textarea{
 	 overflow:hidden;
@@ -252,7 +252,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: capitalize;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 .news-section .sponsors-outer{
@@ -289,7 +289,7 @@
 	 color: #ffffff;
 	 font-weight: 600;
 	 text-transform:uppercase;
-	 font-family: 'PT Sans', sans-serif;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 border-radius:4px;
 	 overflow:hidden;
  }
@@ -358,6 +358,7 @@
  /* Btn Style Two */
  
  .btn-style-two{
+	padding-right:15px;
 	 position: relative;
 	 display: inline-block;
 	 font-size: 16px;
@@ -365,7 +366,7 @@
 	 color: #ffffff;
 	 font-weight: 600;
 	 text-transform:uppercase;
-	 font-family: 'PT Sans', sans-serif;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 border-radius:4px;
 	 overflow:hidden;
  }
@@ -392,7 +393,37 @@
  .btn-style-two:hover .btn-title{
 	 color:#ffffff;
  }
- 
+ .featured-blocks .featured-block .iconss h3:before{
+	content: '';
+	position: absolute;
+left: 0;	bottom: 0;
+	width: 30px;
+	border-bottom: 2px solid white;
+}
+.replay-text-arabic{
+	position: relative;
+	font-family: 'Noto Kufi Arabic', sans-serif;;
+	color: #2f3753;
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: capitalize;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
+}
+ .featured-blocks .featured-block .iconss .icon{
+	position: relative;
+	display: block;
+	text-align: right;
+	right: 0;
+	top: 0px;
+	padding-right:25px;
+
+	line-height: 1em;
+	font-size: 80px;
+	color: #dc4549;
+	margin: 0 0 30px;
+}
+
  .btn-style-two .btn-title:before{
 	 content: "";
 	 position: absolute;
@@ -400,7 +431,7 @@
 	 top: 0;
 	 z-index:-1;
 	 height: 100%;
-	 background: #f5a93f;
+	 background: #426E94;
 	 width: 100%;
 	 -webkit-transform: scale(1, 1);
 	 -ms-transform: scale(1, 1);
@@ -498,7 +529,7 @@
 	 color: #ffffff;
 	 font-weight: 600;
 	 text-transform:uppercase;
-	 font-family: 'PT Sans', sans-serif;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 border-radius:4px;
 	 overflow:hidden;
  }
@@ -570,7 +601,7 @@
 	 color: #ffffff;
 	 font-weight: 600;
 	 text-transform:uppercase;
-	 font-family: 'PT Sans', sans-serif;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 border-radius:4px;
 	 overflow:hidden;
  }
@@ -1088,7 +1119,7 @@
 .main-menu .navigation{
 	position:relative;
 	margin:0px;
-	font-family: 'PT Sans', sans-serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
 .main-menu .navigation > li{
@@ -2212,7 +2243,7 @@
  }
  
  .sec-title h2{
-	font-family: 'Playfair Display', cursive;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 text-align: right;
 	 font-size: 32px;
 	 letter-spacing: 0px;
@@ -3323,7 +3354,7 @@
 	 color:#2f3753;
 	 text-transform: capitalize;
 	 font-weight:700;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 margin-bottom: 5px;
  }
  
@@ -3486,7 +3517,7 @@
  
  .default-event .date{
 	 position: relative;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 display: block;
 	 color: #dc4549;
 	 font-size: 22px;
@@ -3767,7 +3798,7 @@
  .testimonial-block .info .author{
 	 position: relative;
 	 display: block;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 color: #2f3753;
 	 font-size: 18px;
 	 font-weight: 700;
@@ -4176,6 +4207,7 @@ padding-right: 30px;
 	 padding:10px 20px;
 	 line-height:30px;
 	 color:#333333;
+	 text-align: right;
 	 border-radius:3px;
 	 background-color:#ffffff;
 	 border: 1px solid rgba(0,0,0,0.07);
@@ -4457,7 +4489,6 @@ padding-right: 30px;
  .call-to-action h2{
 	 position: relative;
 	 font-weight: 700;
-	 font-size: 48px;
 	 line-height: 1.2em;
 	 margin-bottom: 10px;
  }
@@ -4537,7 +4568,7 @@ padding-right: 30px;
  
  .main-footer h3{
 	 position:relative;
-	 font-size:24px;
+	 font-size:20px;
 	 font-weight:700;
 	 color:#ffffff;
 	 letter-spacing: 0.03em;
@@ -4545,7 +4576,7 @@ padding-right: 30px;
 	 text-transform:capitalize;
 	 padding-bottom: 10px;
 	 margin-bottom:25px;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
  }
  
  .main-footer h3:before{
@@ -4621,7 +4652,7 @@ padding-right: 30px;
 	 height:36px;
 	 line-height:36px;
 	 background:#2b2b2b;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 
 	 text-align:center;
 	 border-radius:50%;
@@ -4854,7 +4885,7 @@ padding-right: 30px;
  
  .our-moto .moto-block h3{
 	 position: relative;
-	 font-family: brandon-grotesque,sans-serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;;
 	 color: #2f3753;
 	 font-weight: 600;
 	 font-size: 20px;
@@ -5026,7 +5057,7 @@ padding-right: 30px;
  
  .about-section-two .quote-box .quote-info .author-title{
 	 display: block;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 color: #dc4549;
 	 font-size: 18px;
 	 font-weight: 700;
@@ -5183,16 +5214,30 @@ padding-right: 30px;
 .featured-blocks .featured-block .inner:before{
 	content: '';
 	position: absolute;
-	left: 0;
+	right: 0;
 	top: 0px;
 	width: 169px;
 	height: 92px;
 	background: url('../images/icons/bg-flare-2.png') left top no-repeat;
 }
-
+.text-arabic-para{
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 400;
+	margin: 0 0;
+	text-align: right;
+}
+a.a-ara{
+	text-decoration:none;
+	cursor:pointer;
+	text-align:right;
+	float:right;
+	color: #426E94;
+}
 .featured-blocks .featured-block .icon{
 	position: relative;
 	display: block;
+	text-align: right;
 	right: 0;
 	top: 0px;
 	line-height: 1em;
@@ -5213,10 +5258,12 @@ padding-right: 30px;
 .featured-blocks .featured-block:nth-child(3) .icon{
 	color: #4cc7d6;
 }
-
+.text-arabic{
+	text-align:right;
+}
 .featured-blocks .featured-block h3{
 	position: relative;
-	font-family: brandon-grotesque,sans-serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;;
 	color: #2f3753;
 	font-weight: 600;
 	font-size: 20px;
@@ -5233,7 +5280,14 @@ padding-right: 30px;
 	width: 30px;
 	border-bottom: 2px solid #F7C33F;
 }
-
+.featured-blocks .featured-block .text-arabic:before{
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30px;
+	border-bottom: 2px solid #F7C33F;
+}
 .featured-blocks .featured-block h3 a{
 	color: #2f3753;
 }
@@ -5559,7 +5613,7 @@ padding-right: 30px;
  
  .start-giving .sec-title h2{
 	 color: #ffffff;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
  
  }
  
@@ -5988,7 +6042,7 @@ padding-right: 30px;
 	font-weight:700;
 	color:#dc4549;
 	text-transform: capitalize;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;
 	margin-bottom: 7px;
 }
 
@@ -6057,7 +6111,7 @@ padding-right: 30px;
 
 .sidebar .event-widget .date{
 	position: relative;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;
 	display: block;
 	color: #dc4549;
 	font-size: 20px;
@@ -6244,7 +6298,7 @@ padding-right: 30px;
 	 left: -110px;
 	 top: 0;
 	 width: 80px;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 display: block;
 	 color: #426E94;;
 	 font-size: 22px;
@@ -6480,7 +6534,7 @@ padding-right: 30px;
  .testimonial-block-two .info .author{
 	 position: relative;
 	 display: block;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 color: #2f3753;
 	 font-size: 18px;
 	 font-weight: 700;
@@ -6614,7 +6668,7 @@ padding-right: 30px;
  
  .career-section .sec-title h2{
 	 font-size: 44px;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
  
  }
  
@@ -6679,7 +6733,7 @@ padding-right: 30px;
 	font-size: 22px;
 	font-weight: 400;
 	background: #9a4cd6;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Noto Kufi Arabic', sans-serif;
 	border-radius: 3px;
 }
 
@@ -6874,8 +6928,12 @@ padding-right: 30px;
  }
  
  .blog-posts h3{
-	 text-align: right;
- }
+	font-size:20px;
+	padding-top:50px;
+
+	text-align: right;
+	
+}
  .career-block-two .inner-box{
 	 position: relative;
 	 display: block;
@@ -6897,7 +6955,7 @@ padding-right: 30px;
 	 font-size: 22px;
 	 font-weight: 400;
 	 background: #F7C33F;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 border-radius: 3px;
  }
  
@@ -7093,7 +7151,7 @@ padding-right: 30px;
 	 font-size: 18px;
 	 font-weight: 700;
 	 text-transform: capitalize;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
  }
  
  .career-section .sponsors-outer{
@@ -7238,7 +7296,7 @@ padding-right: 30px;
  
  .page-banner h1{
 	 position:relative;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 font-size:52px;
 	 line-height:1.2em;
 	 font-weight:700;
@@ -7276,14 +7334,15 @@ padding-right: 30px;
  }
  
  .page-banner .bread-crumb li:before{
-	 content:'<';
+	 content:'>';
 	 position:absolute;
-	 right:-24px;
+	 left:-8px;
 	 width: 24px;
 	 top:0px;
 	 text-align:center;
 	 line-height:30px;
  }
+
  
  .page-banner .bread-crumb li:first-child{
 	 margin-left:0px;	
@@ -7295,6 +7354,7 @@ padding-right: 30px;
  
  .page-banner .bread-crumb li a{
 	 color:#ffffff;
+	 padding-left: 15px;
 	 transition:all 0.3s ease;
 	 -moz-transition:all 0.3s ease;
 	 -webkit-transition:all 0.3s ease;
@@ -7333,7 +7393,7 @@ padding-right: 30px;
  .bottom-info-box .sec-title h2{
 	 text-transform: none;
 	 color: #ffffff;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
  
  }
  
@@ -7421,7 +7481,7 @@ padding-right: 30px;
  }
  
  .map-data h6{
-	 font-family: 'PT Sans', sans-serif;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
 	 font-size:16px;
 	 font-weight:700;
 	 text-align:center;
@@ -8349,7 +8409,7 @@ padding-right: 30px;
 	 font-weight:700;
 	 color:#dc4549;
 	 text-transform: capitalize;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 margin-bottom: 7px;
  }
  
@@ -8418,7 +8478,7 @@ padding-right: 30px;
  
  .stories .story-widget .date{
 	 position: relative;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 display: block;
 	 color: #3D7B0C;
 	 font-size: 20px;
@@ -9060,8 +9120,6 @@ padding-right: 30px;
 
  .story-details .info-box .cause-info{
 	position: relative;
-	float: left;
-	width: 50%;
 }
 
 .story-details .info-box .cause-info ul{
@@ -9170,7 +9228,7 @@ padding-right: 30px;
  .event-detail-image .time-countdown .counter-column .count{
 	 position: relative;
 	 display: inline-block;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 padding-right: 10px;
 	 font-size: 48px;
 	 line-height: 1.2em;
@@ -10180,7 +10238,7 @@ padding-right: 30px;
  
  .message-section .sec-title h2{
 	 text-transform: none;
-	 font-family: 'Playfair Display', cursive;
+	  font-family: 'Noto Kufi Arabic', sans-serif;
  
  }
  
@@ -10266,7 +10324,7 @@ padding-right: 30px;
  
  .message-section .quote-box .quote-info .author-title{
 	 display: block;
-	 font-family: 'Playfair Display', serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 color: #ffffff;
 	 font-size: 18px;
 	 font-weight: 700;
@@ -10372,7 +10430,7 @@ padding-right: 30px;
 	 font-size:20px;
 	 line-height:1.2em;
 	 font-weight:700;
-	 font-family: brandon-grotesque,sans-serif;
+	 font-family: 'Noto Kufi Arabic', sans-serif;
 	 margin-bottom:20px;
 	 color:#2f3753;
  }

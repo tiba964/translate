@@ -6,7 +6,7 @@
 <section class="banner-section">
 
   <div class="banner-carousel kausid-carousel owl-theme owl-carousel"
-    data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
+    data-options='{"loop": true, "margin": 0, "autoheight":true,  "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
     {% for slider in slider_show %}
     <!-- Slide Item -->
     <div class="slide-item { % if forloop.counter0 == 0 %} active {% endif % }">
@@ -17,8 +17,10 @@
           <div class="content">
             <div class="inner">
              
-            {% if LANGUAGE_CODE == 'en' %}  <h2>{{slider.slide_title_index}} </h2>
-                {% elif LANGUAGE_CODE == 'ar' %}<h2>{{slider.slide_title_index_ar}}{% endif %}</h2>
+              <div class="sub-title">{% if LANGUAGE_CODE == 'en' %}{{slider.slide_subtitle_index}}
+                {% elif LANGUAGE_CODE == 'ar' %}{{slider.slide_subtitle_index_ar}}{% endif %}</div>
+              <h2>{% if LANGUAGE_CODE == 'en' %}{{slider.slide_title_index}}
+                {% elif LANGUAGE_CODE == 'ar' %}{{slider.slide_title_index_ar}}{% endif %}</h2>
 
             </div>
           </div>
@@ -57,7 +59,7 @@
           <div class="image-box">
             <figure class="image">
               {% for i in data %}
-              <img src="{{i.image_about_index}}" style="height:358px; width:518px;" alt="">
+              <img src="{{i.image_about_index}}" style="height:358px; width:795.6px;" alt="">
               {% endfor %}
             </figure>
             <div class="caption-box wow fadeInUp" data-wow-delay="0ms">
@@ -126,7 +128,7 @@
   <div class="auto-container volunteer">
     <div class="row clearfix">
       <div class="title-column col-xl-9 col-lg-12 col-md-12 col-sm-12">
-        <h2 style="FONT-SIZE:35px">
+        <h2>
           {% trans "Become a vital part of Ashor Iraqi Foundation for Relief and Development & make a real difference to lives of many!" %}
         </h2>
       </div>
@@ -148,7 +150,7 @@
           <div class="image-box">
             <figure class="image">
               {% for i in data %}
-              <img src="{{i.image_story_index}}" style="height:358px; width:518px;" alt="">
+              <img src="{{i.image_story_index}}" style="height:358px; width:795.6px;" alt="">
               {% endfor %}
             </figure>
             <div class="caption-box wow fadeInUp" data-wow-delay="0ms">

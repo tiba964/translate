@@ -18,7 +18,8 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('who_we_are/', views.who_we_are, name='who_we_are'),
     path('get_involved/', views.get_involved, name='get_involved'),
-    path('get_involved/', views.get_involved, name='get_involved'),
+    
+    path('replay/', views.replay, name='replay'),
     path('what_we_are_doing/', views.what_we_are_doing, name='what_we_are_doing'),
     path('what_we_are_doing_details/<int:id>', views.what_we_are_doing_details,
          name='what_we_are_doing_details'),
